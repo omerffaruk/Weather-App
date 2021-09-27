@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Weather</title>
+  </head>
+  <body>
+    <div class="location" id="locationDiv">
+      <h1 class="location-timezone" id="locationTimezone">Timezone</h1>
+      <canvas class="icon" id="icon1" width="128" height="128"></canvas>
+      <img id="icon2" src="" alt="" width="128" height="128">
+    </div>
+    <div class="temperature">
+        <div class="degree-section">
+            <h2 class="degree" id="temperatureDegree">34</h2>
+            <span>F</span>
+        </div>
+      <div class="temperature-description" id="temperatureDescription">It's cold</div>
+    </div>
+
+    <script src="./skycons.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
